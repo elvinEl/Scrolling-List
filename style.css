@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color:  gray;
+    min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 400px;
+    margin: 0 auto;
+}
+.item>i{
+    cursor: pointer;
+}
+
+.item {
+    background-color: black;
+    color: white;
+    width: 80%;
+    padding: 15px;
+    height: 40px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
